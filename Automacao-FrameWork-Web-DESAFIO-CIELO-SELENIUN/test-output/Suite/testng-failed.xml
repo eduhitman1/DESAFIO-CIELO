@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.edsoft.framework.listeners.web.ListenerTestWeb"/>
+  </listeners>
+  <test thread-count="5" name="Valida Usuario Cadastrado CT0011(failed)">
+    <classes>
+      <class name="teste.web.regressivo.cadastrarUsuario.CT0011">
+        <methods>
+          <include name="getNomeSuiteWeb"/>
+          <include name="tearDownWeb"/>
+          <include name="criarCasoTesteWeb"/>
+          <include name="Initialize"/>
+          <include name="CT00011"/>
+          <include name="carregaMassaDadosMobile"/>
+        </methods>
+      </class> <!-- teste.web.regressivo.cadastrarUsuario.CT0011 -->
+    </classes>
+  </test> <!-- Valida Usuario Cadastrado CT0011(failed) -->
+</suite> <!-- Failed suite [Suite] -->
